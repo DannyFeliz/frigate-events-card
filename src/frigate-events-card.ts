@@ -97,7 +97,7 @@ const LABEL_ICONS: Record<string, string> = {
   boat: '🚤',
 };
 
-@customElement('frigate-events-card')
+@customElement('frigate-events-card-dev')
 export class FrigateEventsCard extends LitElement {
   @property({ attribute: false }) public hass?: HomeAssistant;
   @state() private _config?: FrigateEventsCardConfig;
